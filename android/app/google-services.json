@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "904034049241",
+    "project_id": "abhicreativefashion",
+    "storage_bucket": "abhicreativefashion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904034049241:android:8c72c0f25ce4fb622832c8",
+        "android_client_info": {
+          "package_name": "com.example.abhicreativefashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904034049241-u7c4dtcuhvhpkl6s01nhl11t297e8r3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhicreativefashion",
+            "certificate_hash": "686224683213f218df3d6b3b2da4b5114e33e22a"
+          }
+        },
+        {
+          "client_id": "904034049241-5oglp0uhhq1g2abkhs2h0098jpnfpdfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdjLoJ_nN_7rdWtwriUHVQmo-jDVehHMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904034049241-5oglp0uhhq1g2abkhs2h0098jpnfpdfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
