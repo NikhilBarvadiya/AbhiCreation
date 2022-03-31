@@ -1,5 +1,6 @@
 import 'package:abhicreativefashion/Ui/Home/FirstScreen.dart';
 import 'package:abhicreativefashion/Ui/Home/SecondScreen.dart';
+import 'package:abhicreativefashion/Ui/Login/ForgetPasswordScreen.dart';
 import 'package:abhicreativefashion/Ui/Login/LoginScreen.dart';
 import 'package:abhicreativefashion/Ui/Login/RegisterScreen.dart';
 import 'package:abhicreativefashion/Ui/Splash/Splash_Screen.dart';
@@ -17,6 +18,7 @@ void main() async {
         '/': (context) => const Splash_Screen(),
         '/LoginScreenRoute': (context) => const LoginScreen(),
         '/RegisterScreenRoute': (context) => const RegisterScreen(),
+        '/ForgotPasswordScreenRoute': (context) => ForgotPasswordScreen(),
         '/FirstScreenRoute': (context) => const FirstScreen(),
         '/SecondScreenRoute': (context) => const SecondScreen(),
       },

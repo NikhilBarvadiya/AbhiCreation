@@ -17,7 +17,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-
+import 'package:abhicreativefashion/Data/SharedPefences.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -53,6 +53,7 @@ Future<String?> signInWithGoogle() async {
     if (name!.contains(" ")) {
       name = name!.substring(0, name!.indexOf(" "));
     }
+
     assert(!user.isAnonymous);
     assert(await user.getIdToken() != null);
     final User? currentUser = firebaseAuth.currentUser;
