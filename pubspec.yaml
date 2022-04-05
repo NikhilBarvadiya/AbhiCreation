@@ -42,6 +42,7 @@ dependencies:
   firebase_core: ^1.13.1
   google_sign_in: ^5.2.4
   firebase_database: ^9.0.8
+  avatar_view: ^1.0.1
   qr_code_scanner: ^0.7.0
   universal_html: ^2.0.8
   shared_preferences: ^2.0.13
