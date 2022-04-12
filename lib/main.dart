@@ -12,6 +12,10 @@ void main() async {
   await Firebase.initializeApp();
   runApp(
     MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.deepOrange,
+        accentColor: Colors.deepOrangeAccent,
+      ),
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
@@ -25,4 +29,3 @@ void main() async {
     ),
   );
 }
-
